@@ -1,0 +1,445 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /\top#Slave 
+=== Design Unit: work.SPI_Slave
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       4         4         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/\top#Slave /assert__p4
+                     SPI_Slave.sv(149)                  0          1
+/\top#Slave /assert__p3
+                     SPI_Slave.sv(145)                  0          1
+/\top#Slave /assert__p2
+                     SPI_Slave.sv(141)                  0          1
+/\top#Slave /assert__p1
+                     SPI_Slave.sv(137)                  0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30        30         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /\top#Slave 
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_Slave.sv
+------------------------------------IF Branch------------------------------------
+    15                                      8116     Count coming in to IF
+    15              1                          2     		if (!slave_intf.rst_n)
+    17              1                       8114     		else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    31                                     31918     Count coming in to IF
+    31              1                          6     		if(~slave_intf.rst_n)begin
+    39              1                      31912     		else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    40                                     31912     Count coming in to IF
+    40              1                       2029     		if(ns==CHK_CMD)begin
+    44              1                      22785     		else if ((cs == WRITE) || (cs == READ_ADD)||((cs == READ_DATA) && (!slave_intf.tx_valid))) begin
+    54              1                       5064     		else if ((cs==READ_DATA) && slave_intf.tx_valid) begin
+                                            2034     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                     22785     Count coming in to IF
+    45              1                      20255     		    if (state_count != 10) begin
+    50              1                       2530     			else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    66                                     20263     Count coming in to CASE
+    67              1                       4058     		      IDLE:begin
+    74              1                       3030     		      CHK_CMD:
+    90              1                       6602     		      WRITE:begin
+    97              1                       3571     		      READ_ADD:
+    106             1                       3001     		      READ_DATA:
+    113             1                          1     		      default: ns = IDLE;
+Branch totals: 6 hits of 6 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    69                                      4058     Count coming in to IF
+    69              1                       2028     			if (slave_intf.SS_n)
+    71              1                       2030     			else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    75                                      3030     Count coming in to IF
+    75              1                          1     			if (slave_intf.SS_n)
+    77              1                       3029     			else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    78                                      3029     Count coming in to IF
+    78              1                       1524     			    if (!slave_intf.MOSI)
+    80              1                       1505     			    else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    81                                      1505     Count coming in to IF
+    81              1                        998     				if (!flag_rd)begin
+    84              1                        507     				else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    91                                      6602     Count coming in to IF
+    91              1                       1014     			if (slave_intf.SS_n)
+    93              1                       5588     			else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    98                                      3571     Count coming in to IF
+    98              1                        507     			if (slave_intf.SS_n)
+    100             1                       3064     			else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    107                                     3001     Count coming in to IF
+    107             1                        506     			if (slave_intf.SS_n)
+    109             1                       2495     			else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       8         7         1    87.50%
+
+================================Condition Details================================
+
+Condition Coverage for instance /\top#Slave  --
+
+  File SPI_Slave.sv
+----------------Focused Condition View-------------------
+Line       40 Item    1  (ns == CHK_CMD)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+  (ns == CHK_CMD)         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (ns == CHK_CMD)_0     -                             
+  Row   2:          1  (ns == CHK_CMD)_1     -                             
+
+----------------Focused Condition View-------------------
+Line       44 Item    1  (((cs == WRITE) || (cs == READ_ADD)) || ((cs == READ_DATA) && ~slave_intf.tx_valid))
+Condition totals: 4 of 4 input terms covered = 100.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+        (cs == WRITE)         Y
+     (cs == READ_ADD)         Y
+    (cs == READ_DATA)         Y
+  slave_intf.tx_valid         Y
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:          1  (cs == WRITE)_0        (~((cs == READ_DATA) && ~slave_intf.tx_valid) && ~(cs == READ_ADD))
+  Row   2:          1  (cs == WRITE)_1        -                             
+  Row   3:          1  (cs == READ_ADD)_0     (~((cs == READ_DATA) && ~slave_intf.tx_valid) && ~(cs == WRITE))
+  Row   4:          1  (cs == READ_ADD)_1     ~(cs == WRITE)                
+  Row   5:          1  (cs == READ_DATA)_0    ~((cs == WRITE) || (cs == READ_ADD))
+  Row   6:          1  (cs == READ_DATA)_1    (~((cs == WRITE) || (cs == READ_ADD)) && ~slave_intf.tx_valid)
+  Row   7:          1  slave_intf.tx_valid_0  (~((cs == WRITE) || (cs == READ_ADD)) && (cs == READ_DATA))
+  Row   8:          1  slave_intf.tx_valid_1  (~((cs == WRITE) || (cs == READ_ADD)) && (cs == READ_DATA))
+
+----------------Focused Condition View-------------------
+Line       45 Item    1  (state_count != 10)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (state_count != 10)         Y
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:          1  (state_count != 10)_0  -                             
+  Row   2:          1  (state_count != 10)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       54 Item    1  ((cs == READ_DATA) && slave_intf.tx_valid)
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+    (cs == READ_DATA)         Y
+  slave_intf.tx_valid         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:          1  (cs == READ_DATA)_0    -                             
+  Row   2:          1  (cs == READ_DATA)_1    slave_intf.tx_valid           
+  Row   3:    ***0***  slave_intf.tx_valid_0  (cs == READ_DATA)             
+  Row   4:          1  slave_intf.tx_valid_1  (cs == READ_DATA)             
+
+
+
+Directive Coverage:
+    Directives                       4         4         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/\top#Slave /cover__p4                   SPI_Slave Verilog  SVA  SPI_Slave.sv(150)
+                                                                              2032 Covered   
+/\top#Slave /cover__p3                   SPI_Slave Verilog  SVA  SPI_Slave.sv(146)
+                                                                              5063 Covered   
+/\top#Slave /cover__p2                   SPI_Slave Verilog  SVA  SPI_Slave.sv(142)
+                                                                              11633 Covered   
+/\top#Slave /cover__p1                   SPI_Slave Verilog  SVA  SPI_Slave.sv(138)
+                                                                              9611 Covered   
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       5         5         0   100.00%
+    FSM Transitions                  8         8         0   100.00%
+
+================================FSM Details================================
+
+FSM Coverage for instance /\top#Slave  --
+
+FSM_ID: cs
+    Current State Object : cs
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  67                IDLE                   0
+  74             CHK_CMD                   1
+ 106           READ_DATA                   4
+  97            READ_ADD                   3
+  90               WRITE                   2
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE                2031          
+                 CHK_CMD                2029          
+               READ_DATA                1014          
+                READ_ADD                1014          
+                   WRITE                2028          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  72                   0                2029          IDLE -> CHK_CMD               
+  85                   1                 507          CHK_CMD -> READ_DATA          
+  82                   2                 507          CHK_CMD -> READ_ADD           
+  79                   3                1014          CHK_CMD -> WRITE              
+  76                   4                   1          CHK_CMD -> IDLE               
+ 108                   5                 506          READ_DATA -> IDLE             
+  99                   6                 507          READ_ADD -> IDLE              
+  92                   7                1014          WRITE -> IDLE                 
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   5         5         0   100.00%
+        FSM Transitions              8         8         0   100.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      34        34         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /\top#Slave  --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SPI_Slave.sv
+    3                                                module SPI_Slave(SPI_Interface.Slave slave_intf);
+    4                                                	states cs, ns;
+    5                                                	//po parallel output
+    6                                                	reg [9:0] PO;
+    7                                                	//so->serial output
+    8                                                	reg SO, flag_rd = 0;
+    9                                                	bit[3:0] state_count = 0, final_count = 0;
+    10                                               
+    11                                               	assign slave_intf.MISO = SO;
+    12                                               	assign slave_intf.rx_data=PO;
+    13                                                	//cs logic:
+    14              1                       8116     	always @(posedge slave_intf.clk or negedge slave_intf.rst_n) begin
+    15                                               		if (!slave_intf.rst_n)
+    16              1                          2     		    cs <= IDLE;
+    17                                               		else
+    18              1                       8114     		    cs <= ns;
+    19                                               	end
+    20                                               	// always @(cs) begin
+    21                                               	// 	case (cs)
+    22                                               	// 	      IDLE: slave_intf.rx_valid = 0;
+    23                                               	// 	      WRITE: slave_intf.rx_valid = 1;
+    24                                               	// 	      READ_ADD: slave_intf.rx_valid = 1;
+    25                                               	// 	      READ_DATA: slave_intf.rx_valid = 1;
+    26                                               	// 	      default: slave_intf.rx_valid = 0;
+    27                                               	// 	endcase
+    28                                               	// end
+    29                                                //adding if statment to cover when the reset occures and removing ssn from the sensetivity list
+    30              1                      31918     	always @(posedge slave_intf.clk,negedge slave_intf.rst_n) begin
+    31                                               		if(~slave_intf.rst_n)begin
+    32              1                          6     			flag_rd<=0;
+    33              1                          6     			PO<=0;
+    34              1                          6     			state_count<=0;
+    35              1                          6     			SO<=0;
+    36              1                          6     			final_count<=0;
+    37              1                          6     			slave_intf.SS_n<=1;
+    38                                               		end
+    39                                               		else begin
+    40                                               		if(ns==CHK_CMD)begin
+    41              1                       2029     			state_count<=0;
+    42              1                       2029     			final_count<=0;
+    43                                               		end
+    44                                               		else if ((cs == WRITE) || (cs == READ_ADD)||((cs == READ_DATA) && (!slave_intf.tx_valid))) begin
+    45                                               		    if (state_count != 10) begin
+    46              1                      20255     				PO <= {PO[8:0], slave_intf.MOSI};
+    47              1                      20255     				state_count <= state_count + 1;
+    48              1                      20255     				slave_intf.rx_valid<=0;
+    49                                               				end
+    50                                               			else begin
+    51              1                       2530     			slave_intf.rx_valid<=1;
+    52                                               			end
+    53                                               		end
+    54                                               		else if ((cs==READ_DATA) && slave_intf.tx_valid) begin
+    55              1                       5064     		    SO <= slave_intf.tx_data[7-final_count];
+    56              1                       5064     		    final_count <= final_count + 1;
+    57                                               		end
+    58                                               	end
+    59                                               
+    60                                               	end
+    61                                               //////////////////////////////////////////////////////////////////////////////////////
+    62                                               	
+    63                                               	//ns logic
+    64                                               	//corrections on the flow for rd_flag
+    65              1                      20263     	always @(slave_intf.MOSI, slave_intf.SS_n, cs) begin
+    66                                               		case (cs)
+    67                                               		      IDLE:begin
+    68                                               			
+    69                                               			if (slave_intf.SS_n)
+    70              1                       2028     			    ns = IDLE;
+    71                                               			else
+    72              1                       2030     			    ns = CHK_CMD;
+    73                                               			  end
+    74                                               		      CHK_CMD:
+    75                                               			if (slave_intf.SS_n)
+    76              1                          1     			    ns = IDLE;
+    77                                               			else begin
+    78                                               			    if (!slave_intf.MOSI)
+    79              1                       1524     				ns = WRITE;
+    80                                               			    else begin
+    81                                               				if (!flag_rd)begin
+    82              1                        998     				    ns = READ_ADD;
+    83                                               					end
+    84                                               				else begin
+    85              1                        507     				    ns = READ_DATA;
+    86                                               					end
+    87                                               			    end
+    88                                               			end
+    89                                               
+    90                                               		      WRITE:begin
+    91                                               			if (slave_intf.SS_n)
+    92              1                       1014     			    ns = IDLE;
+    93                                               			else
+    94              1                       5588     			    ns = WRITE;
+    95                                               			  end
+    96                                               
+    97                                               		      READ_ADD:
+    98                                               			if (slave_intf.SS_n)
+    99              1                        507     			    ns = IDLE;
+    100                                              			else begin
+    101             1                       3064     			    ns = READ_ADD;
+    102             1                       3064        				flag_rd=1;
+    103                                              			end
+    104                                              
+    105                                              
+    106                                              		      READ_DATA:
+    107                                              			if (slave_intf.SS_n)
+    108             1                        506     			    ns = IDLE;
+    109                                              			else begin
+    110             1                       2495     			    ns = READ_DATA;
+    111             1                       2495     				flag_rd=0;
+    112                                              			end
+    113             1                          1     		      default: ns = IDLE;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         50        50         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /\top#Slave  --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                           PO[9-0]           1           1                              100.00 
+                                                SO           1           1                              100.00 
+                                                cs               ENUM type       Value       Count 
+                                                                      IDLE         515      100.00 
+                                                                   CHK_CMD         515      100.00 
+                                                                     WRITE         512      100.00 
+                                                                  READ_ADD           1      100.00 
+                                                                 READ_DATA           1      100.00 
+                                  final_count[3-0]           1           1                              100.00 
+                                           flag_rd           1           1                              100.00 
+                                                ns               ENUM type       Value       Count 
+                                                                      IDLE         515      100.00 
+                                                                   CHK_CMD         515      100.00 
+                                                                     WRITE         514      100.00 
+                                                                  READ_ADD         251      100.00 
+                                                                 READ_DATA           1      100.00 
+                                  state_count[3-0]           1           1                              100.00 
+
+Total Node Count     =         30 
+Toggled Node Count   =         30 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (50 of 50 bins)
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/\top#Slave /cover__p4                   SPI_Slave Verilog  SVA  SPI_Slave.sv(150)
+                                                                              2032 Covered   
+/\top#Slave /cover__p3                   SPI_Slave Verilog  SVA  SPI_Slave.sv(146)
+                                                                              5063 Covered   
+/\top#Slave /cover__p2                   SPI_Slave Verilog  SVA  SPI_Slave.sv(142)
+                                                                              11633 Covered   
+/\top#Slave /cover__p1                   SPI_Slave Verilog  SVA  SPI_Slave.sv(138)
+                                                                              9611 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 4
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/\top#Slave /assert__p4
+                     SPI_Slave.sv(149)                  0          1
+/\top#Slave /assert__p3
+                     SPI_Slave.sv(145)                  0          1
+/\top#Slave /assert__p2
+                     SPI_Slave.sv(141)                  0          1
+/\top#Slave /assert__p1
+                     SPI_Slave.sv(137)                  0          1
+
+Total Coverage By Instance (filtered view): 98.43%
+

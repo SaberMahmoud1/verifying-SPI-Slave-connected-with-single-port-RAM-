@@ -1,0 +1,947 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1696974432
+VoWPAlb[HQRMDZRYa0Y6TY3
+Z2 04 3 4 work top fast 0
+=1-fc34974a2311-6525c65f-3c7-c38
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1696675310
+V_i1[6:NjJo75_`QB0E1E42
+R2
+=1-fc34974a2311-652135ed-38d-1b08
+R3
+o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt1
+R5
+R1
+Xaddr_data_rand_pak
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 DXx4 work 10 shared_pak 0 22 flOVAm6]lal^3;9Bk@Lgi3
+Z8 !s110 1696532843
+!i10b 1
+!s100 ;mm:Bmmc<gBHF@dak_lM22
+ILH`[[VP]MA>M1c_m?8Kee1
+S1
+Z9 dC:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module
+w1696527770
+Z10 8C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack2.sv
+Z11 FC:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack2.sv
+!i122 1709
+Z12 L0 1 0
+VLH`[[VP]MA>M1c_m?8Kee1
+Z13 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z14 !s108 1696532843.000000
+Z15 !s107 C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack2.sv|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack2.sv|
+!i113 0
+Z17 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+Xcoverage_pak
+R6
+R8
+!i10b 1
+!s100 g;Qok[T0JFOFdEELz?JiR3
+I3FH5ehlNnhz6fQeoWMnO>1
+S1
+R9
+w1696176933
+Z18 8C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack1.sv
+Z19 FC:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack1.sv
+!i122 1705
+R12
+V3FH5ehlNnhz6fQeoWMnO>1
+R13
+r1
+!s85 0
+31
+R14
+Z20 !s107 C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack1.sv|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack1.sv|
+!i113 0
+R17
+R4
+Xdirect_test_pak
+R6
+Z22 DXx4 work 10 shared_pak 0 22 QL@2cRYzFVi>mLRnG[d>R2
+Z23 !s110 1696974553
+!i10b 1
+!s100 8nAR@P;129:hFBUNYj4fL3
+IC;jP;a0kCbWfOPPmK`m_D0
+S1
+R9
+w1696778349
+8pack2.sv
+Fpack2.sv
+!i122 2785
+L0 3 0
+VC;jP;a0kCbWfOPPmK`m_D0
+R13
+r1
+!s85 0
+31
+Z24 !s108 1696974553.000000
+!s107 top.sv|tb.sv|SPI_wrapper_golden_model.v|SPI_Slave.sv|SPI_slave_golden_model.sv|interface.sv|RAM_golden_model.sv|Dp_Sync_RAM.sv|shared_pack.sv|pack2.sv|pack1.sv|
+Z25 !s90 -reportprogress|300|-sv|+define+SIM_PARAM|pack1.sv|pack2.sv|shared_pack.sv|Dp_Sync_RAM.sv|RAM_golden_model.sv|interface.sv|SPI_slave_golden_model.sv|SPI_Slave.sv|SPI_wrapper_golden_model.v|tb.sv|top.sv|tb.sv|+cover|
+!i113 0
+Z26 !s102 +cover
+Z27 o-sv +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z28 !s92 -sv +define+SIM_PARAM +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vDp_Sync_RAM
+R6
+R6
+R22
+DXx4 work 19 Dp_Sync_RAM_sv_unit 0 22 cdjF:VTEQ`]V;6cC8]9:>2
+R23
+Z29 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 zFZAR1P]GdKN`2oFeoFP91
+IY`KaKPh2mb^D2k`zk5V9>0
+!s105 Dp_Sync_RAM_sv_unit
+S1
+R9
+Z30 w1696958645
+Z31 8Dp_Sync_RAM.sv
+Z32 FDp_Sync_RAM.sv
+!i122 2785
+L0 2 59
+R13
+31
+R24
+Z33 !s107 top.sv|tb.sv|SPI_wrapper_golden_model.v|SPI_Slave.sv|SPI_slave_golden_model.sv|interface.sv|RAM_golden_model.sv|Dp_Sync_RAM.sv|shared_pack.sv|pack2.sv|pack1.sv|
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@dp_@sync_@r@a@m
+XDp_Sync_RAM_sv_unit
+R6
+R6
+R22
+R23
+VcdjF:VTEQ`]V;6cC8]9:>2
+r1
+!s85 0
+!i10b 1
+!s100 neo3aShF:V2^Gi_Q4@?@h0
+IcdjF:VTEQ`]V;6cC8]9:>2
+!i103 1
+S1
+R9
+R30
+R31
+R32
+!i122 2785
+R12
+R13
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@dp_@sync_@r@a@m_sv_unit
+vRAM
+R6
+!s110 1696678951
+!i10b 1
+!s100 ]62]F6>TO5@nOngGZFNmk2
+IIVNVC18=:eBDiUCVL@]na3
+S1
+R9
+w1696624509
+Z34 8C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_golden_model.sv
+Z35 FC:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_golden_model.sv
+!i122 2376
+L0 1 32
+R29
+R13
+r1
+!s85 0
+31
+!s108 1696678951.000000
+Z36 !s107 C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_golden_model.sv|
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_golden_model.sv|
+!i113 0
+R17
+R4
+n@r@a@m
+XRAM_gold_model_sv_unit
+R6
+R7
+R8
+VBkz:oBl8o[IM0TQ:VTWOK2
+r1
+!s85 0
+!i10b 1
+!s100 8^z_Z5>hYd98o=K83Og^?0
+IBkz:oBl8o[IM0TQ:VTWOK2
+!i103 1
+S1
+R9
+w1696497818
+8C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_gold_model.sv
+FC:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_gold_model.sv
+!i122 1711
+R12
+R13
+31
+R14
+!s107 C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_gold_model.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_gold_model.sv|
+!i113 0
+R17
+R4
+n@r@a@m_gold_model_sv_unit
+XRAM_golden_model_sv_unit
+R6
+DXx4 work 10 shared_pak 0 22 S:8gf0SlHei952?NAJGa83
+Z38 !s110 1696620223
+Vj_j_7<goD<_EOYgLW_Tzz3
+r1
+!s85 0
+!i10b 1
+!s100 Xd9hdgf1>zaoWIU_QEYcb1
+Ij_j_7<goD<_EOYgLW_Tzz3
+!i103 1
+S1
+R9
+w1696618404
+R34
+R35
+!i122 1956
+R12
+R13
+31
+Z39 !s108 1696620223.000000
+R36
+R37
+!i113 0
+R17
+R4
+n@r@a@m_golden_model_sv_unit
+XRAM_pak
+R6
+Z40 DXx4 work 10 shared_pak 0 22 MLNASg8n_m4]1V@M7W=Ba2
+Z41 !s110 1696778169
+!i10b 1
+!s100 LMKD?eBFjB_5gdz]c8ozV0
+I;Yfzm10165EjNkdX[imMn2
+S1
+R9
+w1696615002
+R10
+R11
+!i122 2526
+R12
+V;Yfzm10165EjNkdX[imMn2
+R13
+r1
+!s85 0
+31
+Z42 !s108 1696778169.000000
+R15
+R16
+!i113 0
+R17
+R4
+n@r@a@m_pak
+Xrandom_test_pak
+R6
+R22
+R23
+!i10b 1
+!s100 fD:HBbJEB?LjZkolHLz@_3
+I:b8H0i9^m2:3];9XDhTK:3
+S1
+R9
+w1696974310
+8pack1.sv
+Fpack1.sv
+!i122 2785
+R12
+V:b8H0i9^m2:3];9XDhTK:3
+R13
+r1
+!s85 0
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+Xshared_pak
+R6
+R23
+!i10b 1
+!s100 X5^]60R^hcESfaWMQU8EM2
+IQL@2cRYzFVi>mLRnG[d>R2
+S1
+R9
+w1696782803
+8shared_pack.sv
+Fshared_pack.sv
+!i122 2785
+R12
+VQL@2cRYzFVi>mLRnG[d>R2
+R13
+r1
+!s85 0
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+XSLAVE_pak
+R6
+R40
+R41
+!i10b 1
+!s100 B?R1>NFk^cTX@39iF8]NN3
+Ilz?K98O6D?>fPB[59oVRh2
+S1
+R9
+w1696778080
+R18
+R19
+!i122 2522
+R12
+Vlz?K98O6D?>fPB[59oVRh2
+R13
+r1
+!s85 0
+31
+R42
+R20
+R21
+!i113 0
+R17
+R4
+n@s@l@a@v@e_pak
+vSPI
+R6
+R23
+!i10b 1
+!s100 c4Yka[VPcAh`P2zGKCjIK2
+I=;l<PGi[S5:YnhKDfjOIO0
+S1
+R9
+w1696624106
+8SPI_slave_golden_model.sv
+FSPI_slave_golden_model.sv
+!i122 2785
+L0 1 115
+R29
+R13
+r1
+!s85 0
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@s@p@i
+YSPI_Interface
+R6
+R23
+!i10b 1
+!s100 H>6>LFlnhYiM_KI`U=:3^3
+I4Wm05l=fE^o?b3nNeLEEj0
+S1
+R9
+w1696536094
+8interface.sv
+Finterface.sv
+!i122 2785
+R12
+R29
+R13
+r1
+!s85 0
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@s@p@i_@interface
+vSPI_RAM
+R6
+R23
+!i10b 1
+!s100 alLdlUM@D0AbmD6_8dV9A3
+IgnFWTFN6LKGJ;bAeZCddH2
+S1
+R9
+w1696720707
+8RAM_golden_model.sv
+FRAM_golden_model.sv
+!i122 2785
+L0 1 61
+R29
+R13
+r1
+!s85 0
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@s@p@i_@r@a@m
+vSPI_Slave
+R6
+DXx4 work 17 SPI_Slave_sv_unit 0 22 <6`5mObFzCf<VlcnA5nLm3
+R23
+R29
+r1
+!s85 0
+!i10b 1
+!s100 a:MX@J02WaZ1noai?eU1O0
+Il@Un]46HzI[=hWN[]S2K`0
+!s105 SPI_Slave_sv_unit
+S1
+R9
+Z43 w1696973412
+Z44 8SPI_Slave.sv
+Z45 FSPI_Slave.sv
+!i122 2785
+L0 3 152
+R13
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@s@p@i_@slave
+vSPI_slave
+R38
+!i10b 1
+!s100 h1T:gn=KgA1<diU;IXIfJ1
+IWCoRj1OXC4ZR2DgR0Q=N[0
+R9
+w1696620219
+8C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.v
+FC:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.v
+!i122 1957
+L0 1 135
+R29
+R13
+r1
+!s85 0
+31
+R39
+!s107 C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.v|
+!i113 0
+Z46 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@s@p@i_slave
+XSPI_slave_golden_model_sv_unit
+R6
+!s110 1696623526
+V<5U^_NJSO^nYB]OWEX2eA0
+r1
+!s85 0
+!i10b 1
+!s100 AM=?9cmhQkM8[9MhLn]BM2
+I<5U^_NJSO^nYB]OWEX2eA0
+!i103 1
+S1
+R9
+w1696623191
+8C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.sv
+FC:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.sv
+!i122 2152
+R12
+R13
+31
+!s108 1696623526.000000
+!s107 C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.sv|
+!i113 0
+R17
+R4
+n@s@p@i_slave_golden_model_sv_unit
+XSPI_Slave_sv_unit
+R6
+R23
+V<6`5mObFzCf<VlcnA5nLm3
+r1
+!s85 0
+!i10b 1
+!s100 @dY:4RcYEoF6=1aFEYzCV3
+I<6`5mObFzCf<VlcnA5nLm3
+!i103 1
+S1
+R9
+R43
+R44
+R45
+!i122 2785
+R12
+R13
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@s@p@i_@slave_sv_unit
+vSPI_wrapper
+R38
+!i10b 1
+!s100 kJOCPZK6;6_hXQP_OUHWF1
+I8CSSz[;FYh3^BPKe94Q>50
+R9
+w1696617839
+8C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_wrapper_golden_model.v
+FC:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_wrapper_golden_model.v
+!i122 1958
+L0 1 24
+R29
+R13
+r1
+!s85 0
+31
+R39
+!s107 C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_wrapper_golden_model.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_wrapper_golden_model.v|
+!i113 0
+R46
+R4
+n@s@p@i_wrapper
+vSPI_Wrapper
+R6
+R23
+!i10b 1
+!s100 AHo9ST>_]YeSH]PB0=dg<3
+IF>;R1LLG5j[1UYkFPZ^:M0
+S1
+R9
+w1696720698
+8SPI_wrapper_golden_model.v
+FSPI_wrapper_golden_model.v
+!i122 2785
+L0 1 12
+R29
+R13
+r1
+!s85 0
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@s@p@i_@wrapper
+vSPI_wrapper_tb
+R6
+R6
+R6
+R22
+Z47 DXx4 work 15 random_test_pak 0 22 :b8H0i9^m2:3];9XDhTK:3
+Z48 DXx4 work 15 direct_test_pak 0 22 C;jP;a0kCbWfOPPmK`m_D0
+DXx4 work 10 tb_sv_unit 0 22 SkWYzmm^IIQZF:79S75k]2
+R23
+R29
+r1
+!s85 0
+!i10b 1
+!s100 lgFGIcCDoY>>]SX8n6RH93
+Icd6[ZPK`9^636KX;2bU?=0
+!s105 tb_sv_unit
+S1
+R9
+Z49 w1696974305
+Z50 8tb.sv
+Z51 Ftb.sv
+!i122 2785
+L0 4 379
+R13
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+n@s@p@i_wrapper_tb
+Xtb_sv_unit
+R6
+R6
+R6
+R22
+R47
+R48
+R23
+VSkWYzmm^IIQZF:79S75k]2
+r1
+!s85 0
+!i10b 1
+!s100 K0<CaTh8ohALh05d>kl;22
+ISkWYzmm^IIQZF:79S75k]2
+!i103 1
+S1
+R9
+R49
+R50
+R51
+!i122 2785
+R12
+R13
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+vtop
+R6
+R6
+R22
+DXx4 work 11 top_sv_unit 0 22 gc51gVoO5fY`N_gIMfe5D0
+R23
+R29
+r1
+!s85 0
+!i10b 1
+!s100 9PLGL:X4o>>EH5aSkUC0N3
+I5`N2BojI5Z7o7HCoXOa6I0
+!s105 top_sv_unit
+S1
+R9
+Z52 w1696620851
+Z53 8top.sv
+Z54 Ftop.sv
+!i122 2785
+L0 2 21
+R13
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+Xtop_sv_unit
+R6
+R6
+R22
+R23
+Vgc51gVoO5fY`N_gIMfe5D0
+r1
+!s85 0
+!i10b 1
+!s100 Fme5RX5[<1z;M?XAd1X@81
+Igc51gVoO5fY`N_gIMfe5D0
+!i103 1
+S1
+R9
+R52
+R53
+R54
+!i122 2785
+R12
+R13
+31
+R24
+R33
+R25
+!i113 0
+R26
+R27
+R28
+R4
+Xvar_rand_pak
+R6
+!s110 1696079643
+!i10b 1
+!s100 Sd3`]:`Bi@@DEAz4eFc;V0
+I;TkTGB[26HPKJZFaG97XR2
+S1
+R9
+w1696078234
+R18
+R19
+!i122 33
+R12
+V;TkTGB[26HPKJZFaG97XR2
+R13
+r1
+!s85 0
+31
+!s108 1696079643.000000
+R20
+R21
+!i113 0
+R17
+R4

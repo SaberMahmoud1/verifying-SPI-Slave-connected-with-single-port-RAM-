@@ -1,0 +1,146 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/Slave
+=== Design Unit: work.SPI_Slave
+=================================================================================
+
+Directive Coverage:
+    Directives                       3         3         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/Slave/cover__p3                     SPI_Slave Verilog  SVA  SPI_Slave.sv(143)
+                                                                              2498 Covered   
+/top/Slave/cover__p2                     SPI_Slave Verilog  SVA  SPI_Slave.sv(139)
+                                                                              5745 Covered   
+/top/Slave/cover__p1                     SPI_Slave Verilog  SVA  SPI_Slave.sv(135)
+                                                                              4747 Covered   
+
+=================================================================================
+=== Instance: /top/RAM
+=== Design Unit: work.Dp_Sync_RAM
+=================================================================================
+
+Directive Coverage:
+    Directives                       2         2         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/RAM/cover__p2                       Dp_Sync_RAM Verilog  SVA  Dp_Sync_RAM.sv(48)
+                                                                              3495 Covered   
+/top/RAM/cover__p1                       Dp_Sync_RAM Verilog  SVA  Dp_Sync_RAM.sv(44)
+                                                                              3974 Covered   
+
+=================================================================================
+=== Instance: /random_test_pak
+=== Design Unit: work.random_test_pak
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          2        na        na        na
+            Covergroup Bins          6         6         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /random_test_pak/coverage_class/sample_covergroup 
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MOSI_seq_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/random_test_pak::coverage_class::sample_covergroup  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MOSI_seq_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin writing_transation                            250          1          -    Covered              
+        bin reading_transation                            250          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin enabled                                       999          1          -    Covered              
+        bin disabled                                    14750          1          -    Covered              
+        bin transation_1                                  999          1          -    Covered              
+        bin transation_2                                  999          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /random_test_pak/coverage_class/sample_covergroup 
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MOSI_seq_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/random_test_pak::coverage_class::sample_covergroup  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MOSI_seq_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin writing_transation                            250          1          -    Covered              
+        bin reading_transation                            250          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin enabled                                       999          1          -    Covered              
+        bin disabled                                    14750          1          -    Covered              
+        bin transation_1                                  999          1          -    Covered              
+        bin transation_2                                  999          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/Slave/cover__p3                     SPI_Slave Verilog  SVA  SPI_Slave.sv(143)
+                                                                              2498 Covered   
+/top/Slave/cover__p2                     SPI_Slave Verilog  SVA  SPI_Slave.sv(139)
+                                                                              5745 Covered   
+/top/Slave/cover__p1                     SPI_Slave Verilog  SVA  SPI_Slave.sv(135)
+                                                                              4747 Covered   
+/top/RAM/cover__p2                       Dp_Sync_RAM Verilog  SVA  Dp_Sync_RAM.sv(48)
+                                                                              3495 Covered   
+/top/RAM/cover__p1                       Dp_Sync_RAM Verilog  SVA  Dp_Sync_RAM.sv(44)
+                                                                              3974 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 5
+
+Total Coverage By Instance (filtered view): 100.00%
+

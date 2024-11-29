@@ -1,0 +1,62 @@
+{C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/shared_pack.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/shared_pack.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pak
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack2.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/pack2.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package direct_test_pak
+-- Importing package shared_pak
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/interface.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SPI_Interface
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_wrapper_golden_model.v} {1 {vlog -work work -vopt -stats=none {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_wrapper_golden_model.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_Wrapper
+
+Top level modules:
+	SPI_Wrapper
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/SPI_slave_golden_model.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI
+
+Top level modules:
+	SPI
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/Dp_Sync_RAM.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/Dp_Sync_RAM.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Dp_Sync_RAM_sv_unit
+-- Importing package shared_pak
+-- Compiling module Dp_Sync_RAM
+
+Top level modules:
+	Dp_Sync_RAM
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/top.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package top_sv_unit
+-- Importing package shared_pak
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_golden_model.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/SPI Slave wrapper/SPI Slave wrapper Module/RAM_golden_model.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_RAM
+
+Top level modules:
+	SPI_RAM
+
+} {} {}}
