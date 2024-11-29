@@ -1,0 +1,209 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1696720149
+V30DdA8C:1fH@PNzhaPmGO2
+04 2 4 work tb fast 0
+=1-fc34974a2311-6521e515-3f-4534
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+Xcoverage_pak
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1696720405
+!i10b 1
+!s100 :k^:=maTT3YWLQ4jjOJQH3
+I4_P7IA_ETaeo_?nkSW?DF3
+S1
+Z5 dC:/Users/saber/digital_course/verification/final project/Dual-port RAM
+w1696718109
+8pack.sv
+Fpack.sv
+!i122 139
+Z6 L0 1 0
+V4_P7IA_ETaeo_?nkSW?DF3
+Z7 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z8 !s108 1696720405.000000
+!s107 tb.sv|RAM_golden_model.sv|Dp_Sync_RAM.sv|pack.sv|
+Z9 !s90 -reportprogress|300|-sv|+define+SIM_PARAM|pack.sv|Dp_Sync_RAM.sv|RAM_golden_model.sv|tb.sv|+cover|
+!i113 0
+Z10 !s102 +cover
+Z11 o-sv +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -sv +define+SIM_PARAM +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vDp_Sync_RAM
+R3
+R4
+!i10b 1
+!s100 l[VY3N_RNNHU_=X?BU5?73
+IJOmzdOHn2Fz4;IkcJ8AjD3
+S1
+R5
+w1696720116
+8Dp_Sync_RAM.sv
+FDp_Sync_RAM.sv
+!i122 139
+L0 1 58
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 tb.sv|RAM_golden_model.sv|Dp_Sync_RAM.sv|pack.sv|
+R9
+!i113 0
+R10
+R11
+R12
+R2
+n@dp_@sync_@r@a@m
+vRAM
+R3
+!s110 1696716690
+!i10b 1
+!s100 j[nYfZ_YYk2[C9V_0KmBG2
+ICd4WX0g:G=Qk_489:F]3R3
+S1
+R5
+w1696716014
+8C:/Users/saber/digital_course/verification/final project/Dual-port RAM/RAM_golden_model.sv
+FC:/Users/saber/digital_course/verification/final project/Dual-port RAM/RAM_golden_model.sv
+!i122 61
+L0 1 32
+R13
+R7
+r1
+!s85 0
+31
+!s108 1696716690.000000
+!s107 C:/Users/saber/digital_course/verification/final project/Dual-port RAM/RAM_golden_model.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/saber/digital_course/verification/final project/Dual-port RAM/RAM_golden_model.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@r@a@m
+vSPI_RAM
+R3
+R4
+!i10b 1
+!s100 =@9Se[:W0mbk?d4?Kgj0M2
+IF=nVFVHd^OR8OI4Hh5DoC3
+S1
+R5
+w1696717960
+8RAM_golden_model.sv
+FRAM_golden_model.sv
+!i122 139
+L0 1 61
+R13
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+R2
+n@s@p@i_@r@a@m
+vtb
+R3
+Z15 DXx4 work 12 coverage_pak 0 22 4_P7IA_ETaeo_?nkSW?DF3
+DXx4 work 10 tb_sv_unit 0 22 g7m69OOdm3A3<0[]8]@MW1
+R4
+R13
+r1
+!s85 0
+!i10b 1
+!s100 G>Iec2K7le><D;^8fNI2g0
+IegO[`b;D`dI<:7`fYFoH`3
+!s105 tb_sv_unit
+S1
+R5
+Z16 w1696718131
+Z17 8tb.sv
+Z18 Ftb.sv
+!i122 139
+L0 2 74
+R7
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+R2
+Xtb_sv_unit
+R3
+R15
+R4
+Vg7m69OOdm3A3<0[]8]@MW1
+r1
+!s85 0
+!i10b 1
+!s100 L]QCA_IEZPN24_]BdC2zT2
+Ig7m69OOdm3A3<0[]8]@MW1
+!i103 1
+S1
+R5
+R16
+R17
+R18
+!i122 139
+R6
+R7
+31
+R8
+R14
+R9
+!i113 0
+R10
+R11
+R12
+R2

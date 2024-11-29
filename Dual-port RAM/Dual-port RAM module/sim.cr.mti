@@ -1,0 +1,32 @@
+{C:/Users/saber/digital_course/verification/final project/Dual-port RAM/tb.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Dual-port RAM/tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/Users/saber/digital_course/verification/final project/Dual-port RAM/tb.sv(1): (vlog-13233) Design unit "tb_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package tb_sv_unit
+-- Importing package coverage_pak
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Dual-port RAM/Dp_Sync_RAM.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Dual-port RAM/Dp_Sync_RAM.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Dp_Sync_RAM
+
+Top level modules:
+	Dp_Sync_RAM
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Dual-port RAM/pack.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Dual-port RAM/pack.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package coverage_pak
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Dual-port RAM/RAM_golden_model.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Dual-port RAM/RAM_golden_model.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_RAM
+
+Top level modules:
+	SPI_RAM
+
+} {} {}}

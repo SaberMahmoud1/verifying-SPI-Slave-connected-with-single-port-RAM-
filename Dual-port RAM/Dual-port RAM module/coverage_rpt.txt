@@ -1,0 +1,157 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /\tb#DUT1 
+=== Design Unit: work.Dp_Sync_RAM
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       2         2         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/\tb#DUT1 /assert__p2
+                     Dp_Sync_RAM.sv(53)                 0          1
+/\tb#DUT1 /assert__p1
+                     Dp_Sync_RAM.sv(49)                 0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         7         1    87.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /\tb#DUT1 
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File Dp_Sync_RAM.sv
+------------------------------------IF Branch------------------------------------
+    17                                      2487     Count coming in to IF
+    17              1                          4     		if (!rst_n) begin
+    25              1                       2466     		else if (rx_valid) begin
+                                              17     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    27                                      2466     Count coming in to CASE
+    28              1                        496     			2'b00: addr_wr <= din[7:0];
+    29              1                        494     			2'b01: mem[addr_wr] <= din[7:0];
+    30              1                        510     			2'b10: addr_rd <= din[7:0];
+    31              1                        966     			2'b11: {dout, tx_valid} <= {mem[addr_rd], 1'b1};
+                                         ***0***     All False Count
+Branch totals: 4 hits of 5 branches = 80.00%
+
+
+
+Directive Coverage:
+    Directives                       2         2         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/\tb#DUT1 /cover__p2                     Dp_Sync_RAM Verilog  SVA  Dp_Sync_RAM.sv(54)
+                                                                               966 Covered   
+/\tb#DUT1 /cover__p1                     Dp_Sync_RAM Verilog  SVA  Dp_Sync_RAM.sv(50)
+                                                                               723 Covered   
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      13        13         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /\tb#DUT1  --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File Dp_Sync_RAM.sv
+    1                                                module Dp_Sync_RAM(clk, rst_n, din, rx_valid, dout, tx_valid);
+    2                                                	parameter MEM_DEPTH = 256;
+    3                                                	parameter ADDR_SIZE = 8;
+    4                                                
+    5                                                	input clk, rst_n, rx_valid;
+    6                                                	input [9:0] din;
+    7                                                	output reg tx_valid;
+    8                                                	output reg [7:0] dout;
+    9                                                
+    10                                               
+    11                                               	reg [7:0] mem [MEM_DEPTH-1:0];
+    12                                               	reg [ADDR_SIZE-1:0] addr_rd;
+    13                                               	reg [ADDR_SIZE-1:0] addr_wr;
+    14                                               
+    15                                               	integer i;
+    16              1                       2487     	always @(posedge clk or negedge rst_n) begin
+    17                                               		if (!rst_n) begin
+    18              1                          4     		   dout <= 0;
+    19              1                          4     		   addr_rd<=0;
+    20              1                          4     		   addr_wr<=0;
+    21              1                          4     		   tx_valid<=0;
+    22              1                          4     		   for(i=0; i<MEM_DEPTH; i=i+1)
+    22              2                       1024     
+    23              1                       1024     			mem[i] <= 0;
+    24                                               		end
+    25                                               		else if (rx_valid) begin
+    26              1                       2466     		   tx_valid <= 1'b0;
+    27                                               		   case (din[9:8])
+    28              1                        496     			2'b00: addr_wr <= din[7:0];
+    29              1                        494     			2'b01: mem[addr_wr] <= din[7:0];
+    30              1                        510     			2'b10: addr_rd <= din[7:0];
+    31              1                        966     			2'b11: {dout, tx_valid} <= {mem[addr_rd], 1'b1};
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        140        75        65    53.57%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /\tb#DUT1  --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                      addr_rd[7-0]           1           1      100.00 
+                                      addr_wr[7-0]           1           1      100.00 
+                                               clk           1           1      100.00 
+                                          din[0-8]           1           1      100.00 
+                                            din[9]           0           1       50.00 
+                                         dout[7-0]           1           1      100.00 
+                                           i[31-0]           0           0        0.00 
+                                             rst_n           1           1      100.00 
+                                          rx_valid           1           1      100.00 
+                                          tx_valid           1           1      100.00 
+
+Total Node Count     =         70 
+Toggled Node Count   =         37 
+Untoggled Node Count =         33 
+
+Toggle Coverage      =      53.57% (75 of 140 bins)
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/\tb#DUT1 /cover__p2                     Dp_Sync_RAM Verilog  SVA  Dp_Sync_RAM.sv(54)
+                                                                               966 Covered   
+/\tb#DUT1 /cover__p1                     Dp_Sync_RAM Verilog  SVA  Dp_Sync_RAM.sv(50)
+                                                                               723 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 2
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/\tb#DUT1 /assert__p2
+                     Dp_Sync_RAM.sv(53)                 0          1
+/\tb#DUT1 /assert__p1
+                     Dp_Sync_RAM.sv(49)                 0          1
+
+Total Coverage By Instance (filtered view): 88.21%
+
