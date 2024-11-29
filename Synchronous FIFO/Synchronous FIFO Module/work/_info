@@ -1,0 +1,360 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1696786704
+VfXC`?@;[MDI2<Y2d;YEIi1
+04 3 4 work top fast 0
+=1-fc34974a2311-6522e910-91-4d04
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vFIFO
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1696786703
+!i10b 1
+!s100 Y:NiB>Y]^O2;l04X:gNkE1
+Ihn]3:gdNeON<_AeCUf3`X1
+S1
+Z4 dC:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module
+w1696786694
+8FIFO.sv
+FFIFO.sv
+!i122 251
+L0 8 151
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1696786703.000000
+Z8 !s107 top.sv|tb.sv|monitor.sv|interface.sv|FIFO.sv|shared_pack.sv|pack3.sv|pack2.sv|pack1.sv|
+Z9 !s90 -reportprogress|300|-sv|+define+SIM_PARAM|pack1.sv|pack2.sv|pack3.sv|shared_pack.sv|FIFO.sv|interface.sv|monitor.sv|tb.sv|top.sv|+cover|
+!i113 0
+Z10 !s102 +cover
+Z11 o-sv +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -sv +define+SIM_PARAM +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@f@i@f@o
+XFIFO_coverage_pkg
+R2
+Z13 DXx4 work 20 FIFO_transaction_pkg 0 22 G]l32eJI9[Ak;j=BLai`b2
+R3
+!i10b 1
+!s100 E]n5NYDmZfPf?2bb0T1hf1
+I50d7UVk3knLmH6DRaDDW=3
+S1
+R4
+w1696101141
+8pack2.sv
+Fpack2.sv
+!i122 251
+Z14 L0 1 0
+V50d7UVk3knLmH6DRaDDW=3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+n@f@i@f@o_coverage_pkg
+YFIFO_Interface
+R2
+R3
+!i10b 1
+!s100 MLaf6=zfNU`:DKUgf[>Q[2
+IJH0f5eM^]fMDP:EV@P0R]3
+S1
+R4
+w1695903450
+8interface.sv
+Finterface.sv
+!i122 251
+R14
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+n@f@i@f@o_@interface
+vFIFO_monitor
+R2
+R2
+Z15 DXx4 work 10 shared_pkg 0 22 Zb:id_9B_[1cLHO<8Cfk^2
+R13
+Z16 DXx4 work 19 FIFO_scoreboard_pkg 0 22 ?[DKMZOLLJk9a^;:`n:G=1
+Z17 DXx4 work 17 FIFO_coverage_pkg 0 22 50d7UVk3knLmH6DRaDDW=3
+DXx4 work 15 monitor_sv_unit 0 22 h]oA;Lb=NzPHX4hXfelPE3
+R3
+R5
+r1
+!s85 0
+!i10b 1
+!s100 _D=flWj;Lb1h;jCdY8Omj1
+IQD5hOiR:jfo`V`FS9JZmW1
+!s105 monitor_sv_unit
+S1
+R4
+Z18 w1696101084
+Z19 8monitor.sv
+Z20 Fmonitor.sv
+!i122 251
+L0 5 48
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+n@f@i@f@o_monitor
+XFIFO_scoreboard_pkg
+R2
+R13
+R15
+R3
+!i10b 1
+!s100 :j1ODi>@l0A3DRG^zX:>?0
+I?[DKMZOLLJk9a^;:`n:G=1
+S1
+R4
+w1696176624
+8pack3.sv
+Fpack3.sv
+!i122 251
+R14
+V?[DKMZOLLJk9a^;:`n:G=1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+n@f@i@f@o_scoreboard_pkg
+vFIFO_TB
+R2
+R2
+R15
+R13
+DXx4 work 10 tb_sv_unit 0 22 bEjXhJeH9d3LzE?CaTomL0
+R3
+R5
+r1
+!s85 0
+!i10b 1
+!s100 fcMffz8gk?5X]D`2`c__I1
+Ielj7Zi9<AcCCJMWAjfUk;3
+!s105 tb_sv_unit
+S1
+R4
+Z21 w1696101082
+Z22 8tb.sv
+Z23 Ftb.sv
+!i122 251
+L0 4 22
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+n@f@i@f@o_@t@b
+XFIFO_transaction_pkg
+R2
+R3
+!i10b 1
+!s100 AGlP4Gh:zOl@]C^dK8S_30
+IG]l32eJI9[Ak;j=BLai`b2
+S1
+R4
+w1696101087
+8pack1.sv
+Fpack1.sv
+!i122 251
+R14
+VG]l32eJI9[Ak;j=BLai`b2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+n@f@i@f@o_transaction_pkg
+Xmonitor_sv_unit
+R2
+R2
+R15
+R13
+R16
+R17
+R3
+Vh]oA;Lb=NzPHX4hXfelPE3
+r1
+!s85 0
+!i10b 1
+!s100 L@JUL;8G8iAgjU0ZKkzTY0
+Ih]oA;Lb=NzPHX4hXfelPE3
+!i103 1
+S1
+R4
+R18
+R19
+R20
+!i122 251
+R14
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+Xshared_pkg
+R2
+R3
+!i10b 1
+!s100 <42JBb=ShQmMj3]<XUgTH1
+IZb:id_9B_[1cLHO<8Cfk^2
+S1
+R4
+w1695851146
+8shared_pack.sv
+Fshared_pack.sv
+!i122 251
+R14
+VZb:id_9B_[1cLHO<8Cfk^2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+Xtb_sv_unit
+R2
+R2
+R15
+R13
+R3
+VbEjXhJeH9d3LzE?CaTomL0
+r1
+!s85 0
+!i10b 1
+!s100 `gE]CR<^SEfKU9Ukk:T4[2
+IbEjXhJeH9d3LzE?CaTomL0
+!i103 1
+S1
+R4
+R21
+R22
+R23
+!i122 251
+R14
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1
+vtop
+R2
+R3
+!i10b 1
+!s100 c?GFKl;MZ4P6a6[6Jca[d0
+I5A[GG3`jzgFW[ob5:nlJ=3
+S1
+R4
+w1695990622
+8top.sv
+Ftop.sv
+!i122 251
+L0 1 15
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R1

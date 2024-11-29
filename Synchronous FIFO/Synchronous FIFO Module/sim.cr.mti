@@ -1,0 +1,75 @@
+{C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/top.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/pack1.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/pack1.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_transaction_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package monitor_sv_unit
+-- Importing package shared_pkg
+-- Importing package FIFO_scoreboard_pkg
+-- Importing package FIFO_transaction_pkg
+-- Importing package FIFO_coverage_pkg
+-- Compiling module FIFO_monitor
+
+Top level modules:
+	FIFO_monitor
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/FIFO.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/FIFO.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/pack2.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/pack2.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_coverage_pkg
+-- Importing package FIFO_transaction_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/shared_pack.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/shared_pack.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/interface.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface FIFO_Interface
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package tb_sv_unit
+-- Importing package shared_pkg
+-- Importing package FIFO_transaction_pkg
+-- Compiling module FIFO_TB
+
+Top level modules:
+	FIFO_TB
+
+} {} {}} {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/pack3.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/final project/Synchronous FIFO/Synchronous FIFO Module/pack3.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_scoreboard_pkg
+-- Importing package FIFO_transaction_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}
